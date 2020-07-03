@@ -1,0 +1,36 @@
+<!-- Inline events (HTML onclick="" property and element.onclick)
+
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CodeYourFuture - dog photo gallery</title>
+    <meta name="description" content="Introduction to Fetch" />
+    <meta name="author" content="CodeYourFuture" />
+  </head>
+  <style>
+    .dog-photo {
+      width: 200px;
+      height: 200px;
+      /* display: block; */
+    }
+    li {
+      list-style-type: none;
+      float: left;
+    }
+  </style>
+
+  <body>
+    <h1>Dog photo gallery</h1>
+    <ul id="dog-photos">
+      <li></li>
+    </ul>
+
+    <br />
+    <button onclick="getDogPhoto()">Add New photo</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
